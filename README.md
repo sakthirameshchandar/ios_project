@@ -31,6 +31,62 @@ StudentPlacementTracker
 ├── Assets
 └── StudentPlacementTrackerApp.swift
 
+Step 1 — Install Xcode
+
+You need a Mac to develop and run a native iOS app with Xcode.
+
+Open App Store on your Mac.
+Search Xcode.
+Install it.
+Open Xcode.
+Allow any required permissions/components.
+
+If you're currently using Windows, you cannot directly run a native SwiftUI iOS project in Xcode. You would need access to a Mac, such as a Mac computer or a cloud Mac service.
+
+Step 2 — Create the project
+
+Open Xcode.
+
+Choose:
+
+Create New Project → iOS → App
+
+Then enter:
+
+Setting	Value
+Product Name	PlacementTracker
+Team	None / your Apple account
+Organization Identifier	com.sakthi
+Interface	SwiftUI
+Language	Swift
+Storage	None
+Testing	Whatever Xcode defaults to
+
+Click Next → Create.
+
+Step 3 — You'll see this
+
+Xcode will create something like:
+
+PlacementTracker
+│
+├── PlacementTrackerApp.swift
+├── ContentView.swift
+└── Assets.xcassets
+
+We will mainly work with:
+
+ContentView.swift
+Step 4 — Replace ContentView.swift
+
+Open:
+
+ContentView.swift
+
+Delete everything inside it.
+
+Paste this code:
+
 StudentPlacementTracker/
 │
 ├── StudentPlacementTracker/
@@ -177,5 +233,7 @@ Finally click:
 ▶ Run
 
 The simulator opens.
+
+
 
 
